@@ -1,0 +1,13 @@
+// Colors
+$white: hsl(216, 100%, 99%);
+$navy: hsl(212, 100%, 10%);
+$blue: hsl(222, 96%, 21%);
+$light-blue: hsl(212, 100%, 47%);
+
+// Backgrounds
+$grad-bg: linear-gradient(310deg, $white 50%, rgba(223, 228, 232, 0.4) 50%);
+$grad-bg-card: linear-gradient(34deg, $light-blue 50%, $white 50%);
+
+// Font
+$font-size: 16px;
+$font-family: "Montserrat", sans-serif;

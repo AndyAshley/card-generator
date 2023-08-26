@@ -1,0 +1,10 @@
+.inputGroup {
+  width: var(--group-width);
+  margin-bottom: 1rem;
+  position: relative;
+
+  // Only add margin to the first input in the group if its a double input group
+  &:first-child:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
